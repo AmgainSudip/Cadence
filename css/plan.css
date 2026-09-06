@@ -1,0 +1,31 @@
+.plan-summary{display:flex; gap:32px; margin-bottom:28px; flex-wrap:wrap;}
+.plan-stat .num{font-family:'IBM Plex Mono', monospace; font-size:22px;}
+.plan-stat .lbl{font-size:13px; color:var(--ink-soft);}
+
+.cal-grid{
+  display:grid; grid-template-columns:repeat(7, 1fr); gap:6px; margin-bottom:24px;
+}
+.cal-cell{
+  aspect-ratio:1; border:1px solid var(--line); display:flex; align-items:center; justify-content:center;
+  font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--ink-soft); cursor:pointer; background:var(--surface);
+}
+.cal-cell:hover{border-color:var(--ink-soft);}
+.cal-cell.selected{outline:2px solid var(--focus); outline-offset:-2px;}
+.cal-cell.today{border:1px solid var(--ink); font-weight:600; color:var(--ink);}
+.cal-cell.done{background:var(--moss); border-color:var(--moss); color:#fff;}
+.cal-cell.partial{background:var(--moss-tint); border-color:var(--moss); color:#1B4438;}
+.cal-cell.missed{background:var(--amber-tint); border-color:var(--amber); color:#5C3011;}
+.cal-cell.future{color:var(--ink-faint);}
+
+.legend{display:flex; gap:18px; flex-wrap:wrap; font-size:13px; color:var(--ink-soft); margin-bottom:32px;}
+.legend span{display:inline-flex; align-items:center; gap:6px;}
+.swatch{width:11px; height:11px; border:1px solid var(--line-strong); display:inline-block;}
+.swatch.done{background:var(--moss); border-color:var(--moss);}
+.swatch.partial{background:var(--moss-tint); border-color:var(--moss);}
+.swatch.missed{background:var(--amber-tint); border-color:var(--amber);}
+.swatch.today{background:var(--surface); border-color:var(--ink);}
+
+.day-detail{border-top:1px solid var(--line); padding-top:20px; margin-bottom:32px;}
+.day-detail-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px;}
+.day-detail-head h2{font-size:17px; font-weight:600; margin:0;}
+.day-detail-head button{background:none; border:none; color:var(--ink-faint); font-size:13px; cursor:pointer; text-decoration:underline; text-underline-offset:2px;}
