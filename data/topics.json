@@ -1,0 +1,494 @@
+[
+  {
+    "key": "Arrays & hashing",
+    "title": "Arrays & hashing",
+    "description": "Arrays store values in an indexed sequence, while hash maps and hash sets let you quickly store, retrieve, and check information. In interview problems, this combination is often used to count values, detect duplicates, group data, or replace repeated searches with fast lookups.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Arrays & hashing",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Arrays+and+hashing"
+      },
+      {
+        "title": "Abdul Bari \u2014 Arrays & hashing",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Arrays+and+hashing"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Arrays & hashing",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/hash-table-data-structure/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "Two pointers",
+    "title": "Two pointers",
+    "description": "Two pointers means walking through a sequence with two index variables instead of one, often starting from opposite ends or moving at different speeds. It turns many brute-force scans into a single pass, and shows up constantly in sorted-array and string problems.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Two pointers",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Two+pointers"
+      },
+      {
+        "title": "Abdul Bari \u2014 Two pointers",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Two+pointers"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Two pointers",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/two-pointers-technique/"
+      }
+    ]
+  },
+  {
+    "key": "Sliding window",
+    "title": "Sliding window",
+    "description": "A sliding window keeps track of a contiguous range of elements and adjusts its edges as it moves, instead of recomputing a result from scratch each time. It is the go-to technique whenever a problem asks about a substring or subarray that satisfies some condition.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Sliding window",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Sliding+window"
+      },
+      {
+        "title": "Abdul Bari \u2014 Sliding window",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Sliding+window"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Sliding window",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/window-sliding-technique/"
+      }
+    ]
+  },
+  {
+    "key": "Stack",
+    "title": "Stack",
+    "description": "A stack holds items in last-in-first-out order, so the most recently added item is the first one removed. It naturally models nested structures like parentheses, undo history, or finding the next greater or smaller value in a sequence.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Stack",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Stack"
+      },
+      {
+        "title": "Abdul Bari \u2014 Stack",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Stack"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Stack",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/stack-data-structure/"
+      }
+    ]
+  },
+  {
+    "key": "Binary search",
+    "title": "Binary search",
+    "description": "Binary search repeatedly cuts a sorted or monotonic search space in half to find a target in logarithmic time. Beyond plain array searches, it also solves search-on-the-answer problems where you binary search over a range of possible results.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Binary search",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Binary+search"
+      },
+      {
+        "title": "Abdul Bari \u2014 Binary search",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Binary+search"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Binary search",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/binary-search/"
+      }
+    ]
+  },
+  {
+    "key": "Linked list",
+    "title": "Linked list",
+    "description": "A linked list stores elements as nodes connected by pointers rather than in one contiguous block of memory. Interview problems here focus on pointer manipulation, such as reversing, merging, detecting cycles, and reordering, without using extra array space.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Linked list",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Linked+list"
+      },
+      {
+        "title": "Abdul Bari \u2014 Linked list",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Linked+list"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Linked list",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/linked-list-data-structure/"
+      }
+    ]
+  },
+  {
+    "key": "Trees",
+    "title": "Trees",
+    "description": "A tree is a hierarchical structure of nodes connected by edges, with a binary tree restricting each node to at most two children. Most tree problems come down to a traversal, depth-first or breadth-first, combined with some condition to check or value to compute at each node.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Trees",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Trees"
+      },
+      {
+        "title": "Abdul Bari \u2014 Trees",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Trees"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Trees",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/tree-traversals-inorder-preorder-and-postorder/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "Tries",
+    "title": "Tries",
+    "description": "A trie, or prefix tree, stores strings character by character along tree branches, so words sharing a prefix share the same path. It is built specifically for fast prefix lookups, autocomplete, and word-search problems.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Tries",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Tries"
+      },
+      {
+        "title": "Abdul Bari \u2014 Tries",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Tries"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Tries",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/trie-insert-and-search/"
+      }
+    ]
+  },
+  {
+    "key": "Heap / priority queue",
+    "title": "Heap / priority queue",
+    "description": "A heap keeps the smallest or largest element quickly accessible at the top, even as items are added and removed. It is the standard tool whenever a problem asks for the top K elements, a running median, or repeatedly needs the next-best item.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Heap / priority queue",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Heap+/+priority+queue"
+      },
+      {
+        "title": "Abdul Bari \u2014 Heap / priority queue",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Heap+/+priority+queue"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Heap / priority queue",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/heap-data-structure/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "Backtracking",
+    "title": "Backtracking",
+    "description": "Backtracking builds a solution one choice at a time and undoes a choice as soon as it cannot lead anywhere valid. It is used to enumerate all subsets, permutations, or valid configurations under constraints, such as N-Queens or Sudoku.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Backtracking",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Backtracking"
+      },
+      {
+        "title": "Abdul Bari \u2014 Backtracking",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Backtracking"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Backtracking",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/backtracking-algorithms/"
+      }
+    ]
+  },
+  {
+    "key": "Graphs",
+    "title": "Graphs",
+    "description": "A graph models entities as nodes and the relationships between them as edges. Most graph problems reduce to some form of traversal, breadth-first search or depth-first search, to explore connections, detect cycles, or check reachability.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Graphs",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Graphs"
+      },
+      {
+        "title": "Abdul Bari \u2014 Graphs",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Graphs"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Graphs",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/difference-between-bfs-and-dfs/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "Advanced graphs",
+    "title": "Advanced graphs",
+    "description": "Beyond basic traversal, advanced graph problems involve weighted edges and require algorithms like Dijkstra's shortest path, topological sort, or minimum spanning tree construction to find optimal paths or orderings.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Advanced graphs",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Advanced+graphs"
+      },
+      {
+        "title": "Abdul Bari \u2014 Advanced graphs",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Advanced+graphs"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Advanced graphs",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/difference-between-bfs-and-dfs/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "1-D DP",
+    "title": "1-D DP",
+    "description": "One-dimensional dynamic programming breaks a problem into a sequence of overlapping subproblems indexed by a single variable, storing each result so it is never recomputed. Classic examples are climbing stairs, house robber, and coin change.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 1-D DP",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=1-D+DP"
+      },
+      {
+        "title": "Abdul Bari \u2014 1-D DP",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=1-D+DP"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 1-D DP",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "2-D DP",
+    "title": "2-D DP",
+    "description": "Two-dimensional dynamic programming extends the same idea to problems indexed by two variables, such as comparing two strings or moving through a grid. The state is stored in a table, and each cell is built from a small number of previously computed cells.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 2-D DP",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=2-D+DP"
+      },
+      {
+        "title": "Abdul Bari \u2014 2-D DP",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=2-D+DP"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 2-D DP",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/"
+      },
+      {
+        "title": "MIT OpenCourseWare \u2014 6.006 Introduction to Algorithms",
+        "type": "Course notes",
+        "description": "University-level lecture notes covering this topic in more depth.",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/"
+      }
+    ]
+  },
+  {
+    "key": "Intervals",
+    "title": "Intervals",
+    "description": "Interval problems deal with ranges that have a start and an end. They are usually solved by sorting the intervals first and then scanning through them to merge overlaps, insert a new interval, or select a non-overlapping subset.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Intervals",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Intervals"
+      },
+      {
+        "title": "Abdul Bari \u2014 Intervals",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Intervals"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Intervals",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/merging-intervals/"
+      }
+    ]
+  },
+  {
+    "key": "Greedy",
+    "title": "Greedy",
+    "description": "A greedy algorithm makes the locally best choice at each step without reconsidering it later, betting that a sequence of good local decisions adds up to a good overall solution. It only works when a problem has the right structure, so recognizing when greedy applies is half the challenge.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Greedy",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Greedy"
+      },
+      {
+        "title": "Abdul Bari \u2014 Greedy",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Greedy"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Greedy",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/greedy-algorithms/"
+      }
+    ]
+  },
+  {
+    "key": "Math & geometry",
+    "title": "Math & geometry",
+    "description": "These problems lean on arithmetic, matrix manipulation, or coordinate geometry rather than a specific data structure \u2014 for example rotating a matrix in place, walking a grid in a spiral, or reasoning about numeric properties.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Math & geometry",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Math+and+geometry"
+      },
+      {
+        "title": "Abdul Bari \u2014 Math & geometry",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Math+and+geometry"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Math & geometry",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+      }
+    ]
+  },
+  {
+    "key": "Bit manipulation",
+    "title": "Bit manipulation",
+    "description": "Bit manipulation works directly on the binary representation of numbers using operators like AND, OR, XOR, and shifts. It is used for compact state representation and for constant-space tricks like finding a single unpaired number.",
+    "resources": [
+      {
+        "title": "NeetCode \u2014 Bit manipulation",
+        "type": "YouTube search",
+        "description": "Search NeetCode's channel for problem walkthroughs on this pattern.",
+        "url": "https://www.youtube.com/@NeetCode/search?query=Bit+manipulation"
+      },
+      {
+        "title": "Abdul Bari \u2014 Bit manipulation",
+        "type": "YouTube search",
+        "description": "Search Abdul Bari's Algorithms playlist for a conceptual lecture on this pattern.",
+        "url": "https://www.youtube.com/@abdul_bari/search?query=Bit+manipulation"
+      },
+      {
+        "title": "GeeksforGeeks \u2014 Bit manipulation",
+        "type": "Article",
+        "description": "Reference article with explanation and example implementations.",
+        "url": "https://www.geeksforgeeks.org/dsa/bitwise-algorithms/"
+      }
+    ]
+  }
+]
