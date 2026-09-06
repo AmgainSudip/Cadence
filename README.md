@@ -50,9 +50,8 @@ http://localhost:8000
 * HTML
 * CSS
 * Vanilla JavaScript
-* ES modules
 * JSON
-* `localStorage`
+
 
 There is no build step, framework, or backend.
 
