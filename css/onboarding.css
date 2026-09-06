@@ -1,0 +1,35 @@
+.onboard{max-width:480px; margin:40px auto 0;}
+.step-label{font-size:13px; color:var(--ink-faint); margin-bottom:8px;}
+.onboard h1{font-size:24px; font-weight:600; margin:0 0 6px; letter-spacing:-0.01em;}
+.onboard p.lead{color:var(--ink-soft); font-size:15px; margin:0 0 28px;}
+
+.choice-row{display:flex; flex-direction:column; gap:10px; margin-bottom:28px;}
+.choice{
+  border:1px solid var(--line-strong); background:var(--surface);
+  padding:14px 16px; cursor:pointer; text-align:left; width:100%;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.choice:hover{border-color:var(--ink-soft);}
+.choice.selected{border-color:var(--moss); background:var(--moss-tint);}
+.choice .name{font-size:15px; font-weight:500;}
+.choice .meta{font-size:13px; color:var(--ink-soft); margin-top:2px;}
+.choice .mark{font-size:13px; color:var(--moss); font-weight:500; visibility:hidden;}
+.choice.selected .mark{visibility:visible;}
+
+.field-block{margin-bottom:28px;}
+.field-block label{display:block; font-size:14px; color:var(--ink-soft); margin-bottom:10px;}
+.num-input{
+  width:100%; font-family:'IBM Plex Mono', monospace; font-size:32px;
+  border:none; border-bottom:1px solid var(--line-strong); background:transparent;
+  padding:4px 0; color:var(--ink);
+}
+.num-input:focus{outline:none; border-bottom-color:var(--moss);}
+.hint{font-size:13px; color:var(--ink-faint); margin-top:8px;}
+
+.stepper{display:flex; align-items:center; gap:18px;}
+.stepper button{
+  width:36px; height:36px; border:1px solid var(--line-strong); background:var(--surface);
+  font-size:18px; cursor:pointer; line-height:1;
+}
+.stepper button:hover{border-color:var(--ink-soft);}
+.stepper .count{font-family:'IBM Plex Mono', monospace; font-size:32px; min-width:48px; text-align:center;}
