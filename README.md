@@ -1,65 +1,59 @@
 # Cadence
 
-Cadence is a personalized coding-interview preparation planner. Instead of
-handing you a static list of problems, it builds a day-by-day study routine
-from three things you tell it: which question set you want to cover (Blind 75
-or NeetCode 150), your deadline, and how many problems you can realistically
-do on a learning day.
+Cadence is a personalized coding interview preparation planner. Instead of giving you a static list of problems, it creates a day by day study plan based on three things you choose: the question set you want to complete (Blind 75 or NeetCode 150), your deadline, and how many problems you can realistically solve each day.
 
-Every day it tells you exactly what to work on — new questions, or questions
-due for review — and each day opens with a short introduction to that day's
-topic plus links to reputable resources (NeetCode, Abdul Bari, GeeksforGeeks,
-and MIT OpenCourseWare where relevant) before the problem list itself.
+Each day shows you exactly what to work on. This can include new questions or questions that are due for review. Each day also starts with a short introduction to the topic and links to useful resources such as NeetCode, Abdul Bari, GeeksforGeeks, and MIT OpenCourseWare.
 
 ## Why it exists
 
-Problem-list trackers are good at telling you *what exists*. They're less
-good at telling you *what to do today* — and almost none of them build in
-spaced review, or gracefully handle the very normal case of missing a day.
-Cadence's planner treats your deadline as fixed and reflows the remaining
-work around it instead.
+Most problem trackers tell you what problems are available, but they do not tell you what to work on today. They also usually do not include a review system or handle missed days well.
+
+Cadence creates a study plan around your deadline and automatically adjusts the remaining work when you miss a day.
 
 ## Core features
 
-- Three-step onboarding: question list → deadline → daily capacity
-- Automatic split into a learning phase and a review phase
-- A "Today" view that opens with the day's topic, a plain-language
-  explanation of it, and a short list of reliable external resources
-- Every question links to its canonical LeetCode problem page and a
-  NeetCode solution reference
-- Missed tasks carry into the next day with a visible banner, without
-  moving your deadline
-- If you reach your deadline with tasks still open, you can extend the
-  plan by a few days rather than losing your progress
-- A Plan tab with a day-by-day calendar (done / partial / missed / today
-  / future) — click any day to see its full question list
-- Progress persists automatically in `localStorage`
+* Three step onboarding: question list, deadline, and daily capacity
+* Automatically divides the plan into a learning phase and a review phase
+* A **Today** view with the day's topic, a simple explanation, useful resources, and the problem list
+* Every question links to its official LeetCode page and a NeetCode solution
+* Missed tasks move to the next day without changing your deadline
+* A banner shows when you have missed tasks
+* If you reach your deadline with unfinished tasks, you can extend the plan by a few days
+* A **Plan** tab with a day by day calendar showing done, partial, missed, today, and future days
+* Click any day to see its full question list
+* Progress is automatically saved using `localStorage`
 
 ## Local setup
 
-The app loads its data with `fetch()`, so open it through a local server
-rather than a `file://` URL:
+The app loads its data using `fetch()`, so you need to run it through a local server instead of opening the files directly.
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+Then open:
+
+```text
+http://localhost:8000
+```
 
 ## Data sources and limits
 
-- Question titles, topics, and difficulty are drawn from the well-known
-  public Blind 75 and NeetCode 150 curricula. LeetCode problem statements
-  themselves are never reproduced here — every question links out to the
-  canonical LeetCode page instead.
-- Where an exact, verified NeetCode video URL isn't yet recorded for a
-  question, the "solution" link falls back to a YouTube search scoped to
-  NeetCode's channel, clearly labeled as a search rather than a specific
-  video. See `js/links.js` and `CONTRIBUTING.md` for how to upgrade a
-  question to an exact link.
+* Question titles, topics, and difficulty come from the public Blind 75 and NeetCode 150 question sets.
+* LeetCode problem statements are not reproduced in the app. Each question links to the official LeetCode page.
+* If an exact NeetCode video link is not available for a question, the solution link uses a YouTube search limited to the NeetCode channel.
+* These search links are clearly labeled as searches instead of specific videos.
+* See `js/links.js` and `CONTRIBUTING.md` for information about adding exact video links.
 
 ## Tech stack
 
-Plain HTML, CSS, and vanilla JavaScript (ES modules) — no build step, no
-framework, no backend. Data lives in two JSON files. Persistence is
-`localStorage`.
+* HTML
+* CSS
+* Vanilla JavaScript
+* ES modules
+* JSON
+* `localStorage`
+
+There is no build step, framework, or backend.
+
+Question data is stored in two JSON files, and user progress is saved in `localStorage`.

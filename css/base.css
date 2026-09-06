@@ -1,20 +1,24 @@
 :root{
-  --paper:#F3F4F0;
+  --paper:#F1F2F6;        
   --surface:#FFFFFF;
-  --ink:#181B18;
-  --ink-soft:#63675F;
-  --ink-faint:#93968D;
-  --line:#DBDDD5;
-  --line-strong:#BFC2B8;
-  --moss:#2F6F5E;
-  --moss-tint:#E3EDE8;
-  --amber:#AE5E28;
-  --amber-tint:#F4E5D8;
-  --focus:#1F5AA8;
+  --ink:#1B1E27;          
+  --ink-soft:#5B5F70;
+  --ink-faint:#8C90A0;
+  --line:#DDDFE7;
+  --line-strong:#C3C6D2;
+  --moss:#3F5578;          
+  --moss-tint:#E3E7F0;
+  --amber:#A85D2E;         
+  --amber-tint:#F1E2D6;
+  --focus:#2F5FA8;
 }
 
 *{box-sizing:border-box;}
-html,body{margin:0;padding:0;}
+
+html,body{
+  margin:0;
+  padding:0;
+}
 
 body{
   background:var(--paper);
@@ -24,47 +28,134 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 
-.mono{font-family:'IBM Plex Mono', monospace;}
-a{color:var(--moss);}
-button{font-family:inherit;}
-:focus-visible{outline:2px solid var(--focus); outline-offset:2px;}
-@media (prefers-reduced-motion: reduce){
-  *{transition:none !important; animation:none !important;}
+.mono{
+  font-family:'IBM Plex Mono', monospace;
 }
 
-.shell{max-width:760px; margin:0 auto; padding:0 20px 96px;}
+a{
+  color:var(--moss);
+}
+
+button{
+  font-family:inherit;
+}
+
+:focus-visible{
+  outline:2px solid var(--focus);
+  outline-offset:2px;
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{
+    transition:none !important;
+    animation:none !important;
+  }
+}
+
+.shell{
+  max-width:760px;
+  margin:0 auto;
+  padding:0 20px 96px;
+}
 
 .topbar{
-  display:flex; align-items:baseline; justify-content:flex-end;
-  padding:28px 0 20px; border-bottom:1px solid var(--line);
+  display:flex;
+  align-items:baseline;
+  justify-content:flex;
+  padding:28px 0 20px;
+  border-bottom:1px solid var(--line);
   margin-bottom:32px;
 }
-nav.tabs{display:flex; gap:24px;}
-nav.tabs button{
-  background:none; border:none; padding:4px 0; cursor:pointer;
-  font-size:14px; color:var(--ink-soft); border-bottom:2px solid transparent;
+
+nav.tabs{
+  display:flex;
+  gap:24px;
 }
-nav.tabs button.active{color:var(--ink); border-bottom-color:var(--moss); font-weight:500;}
-nav.tabs button:hover{color:var(--ink);}
+
+nav.tabs button{
+  background:none;
+  border:none;
+  padding:4px 0;
+  cursor:pointer;
+  font-size:14px;
+  color:var(--ink-soft);
+  border-bottom:2px solid transparent;
+}
+
+nav.tabs button.active{
+  color:var(--ink);
+  border-bottom-color:var(--moss);
+  font-weight:500;
+}
+
+nav.tabs button:hover{
+  color:var(--ink);
+}
 
 .btn{
-  display:inline-block; border:1px solid var(--ink); background:var(--ink); color:var(--paper);
-  font-size:14px; font-weight:500; padding:11px 20px; cursor:pointer;
+  display:inline-block;
+  border:1px solid var(--ink);
+  background:var(--ink);
+  color:var(--paper);
+  font-size:14px;
+  font-weight:500;
+  padding:11px 20px;
+  cursor:pointer;
 }
 
-.btn:hover{background:#000;}
-.btn.secondary{background:transparent; color:var(--ink); border-color:var(--line-strong);}
-.btn.secondary:hover{border-color:var(--ink);}
-.btn.small{padding:7px 12px; font-size:13px;}
-.btn:disabled{opacity:0.4; cursor:not-allowed;}
-.row-between{display:flex; justify-content:space-between; align-items:center;}
+.btn:hover{
+  background:#11110F;
+}
 
-.reset-line{margin-top:40px; padding-top:20px; border-top:1px solid var(--line);}
+.btn.secondary{
+  background:transparent;
+  color:var(--ink);
+  border-color:var(--line-strong);
+}
+
+.btn.secondary:hover{
+  border-color:var(--ink);
+}
+
+.btn.small{
+  padding:7px 12px;
+  font-size:13px;
+}
+
+.btn:disabled{
+  opacity:0.4;
+  cursor:not-allowed;
+}
+
+.row-between{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.reset-line{
+  margin-top:40px;
+  padding-top:20px;
+  border-top:1px solid var(--line);
+}
+
 .reset-line button{
-  background:none; border:none; color:var(--ink-faint); font-size:13px; cursor:pointer; text-decoration:underline;
-  text-underline-offset:2px; padding:0;
+  background:none;
+  border:none;
+  color:var(--ink-faint);
+  font-size:13px;
+  cursor:pointer;
+  text-decoration:underline;
+  text-underline-offset:2px;
+  padding:0;
 }
 
-.reset-line button:hover{color:var(--ink);}
+.reset-line button:hover{
+  color:var(--ink);
+}
 
-.empty-note{font-size:14px; color:var(--ink-soft); padding:20px 0;}
+.empty-note{
+  font-size:14px;
+  color:var(--ink-soft);
+  padding:20px 0;
+}
